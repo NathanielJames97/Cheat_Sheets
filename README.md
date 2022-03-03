@@ -18,13 +18,12 @@ Then upload your kaggle api JSON and run the cell
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
-}
 ```
 ### 3. Download your selected dataset using the API command
 
 `!kaggle datasets download -d {USER}/{Dataset}`
 
-*E.g. `!kaggle datasets download -d shaunthesheep/microsoft-catsvsdogs-dataset *`
+*E.g. `!kaggle datasets download -d shaunthesheep/microsoft-catsvsdogs-dataset`*
 
 ### 4. Unzip the downloaded dataset
 ```
